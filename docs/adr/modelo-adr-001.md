@@ -1,6 +1,6 @@
 # ADR-001 — Preparar o repositório da equipe
 
-- **Situação:** proposta | aceita | substituída por ADR-<NNN>
+- **Situação:** aceita
 - **Data:** 2026-10-31
 - **Participantes:** Joao Vitor, Andrey Vinicius, Gabriel Florenco, Mateus Borges
 
