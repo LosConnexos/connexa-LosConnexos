@@ -9,5 +9,6 @@
     "**/node_modules": true,
     "**/dist": true
   },
-  "chat.tools.autoApprove": false
+  "chat.tools.autoApprove": false,
+  "chat.disableAIFeatures": false
 }
