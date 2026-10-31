@@ -2,13 +2,20 @@
   "servers": {
     "ado-planejamento": {
       "type": "http",
-      "url": "https://mcp.dev.azure.com/<organizacao-azure-devops>",
-      "headers": { "X-MCP-Toolsets": "wit,work" }
+      "url": "https://mcp.dev.azure.com",
+      "headers": {
+        "X-MCP-Toolsets": "wit,work",
+        "X-Organization": "LosConnexos"
+      }
     },
     "ado-leitura": {
       "type": "http",
-      "url": "https://mcp.dev.azure.com/<organizacao-azure-devops>",
-      "headers": { "X-MCP-Toolsets": "wit,work", "X-MCP-Readonly": "true" }
+      "url": "https://mcp.dev.azure.com",
+      "headers": {
+        "X-MCP-Toolsets": "wit,work",
+        "X-MCP-Readonly": "true",
+        "X-Organization": "LosConnexos"
+      }
     }
   },
   "inputs": []
